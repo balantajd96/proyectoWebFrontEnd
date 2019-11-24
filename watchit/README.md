@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
+## node_modules
+
+se utilizó tambien bootstrap para el despliegue de la tabla: 
+   ### npm install bootstrap --save
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
