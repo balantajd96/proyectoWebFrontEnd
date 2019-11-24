@@ -1,0 +1,97 @@
+<div class="w3-row-padding">
+    <div class="w3-container w3-margin-bottom">
+
+        <img src="https://www.cinetecamadrid.com/sites/default/files/activity/image/WHEN-LAMBS-BECOME-LIONS-image-1.jpg" style="width:100%" class="w3-hover-opacity">
+
+        <div class="w3-container w3-white">
+
+            <p><br><b>When Lambs Become Lions</b></p>
+            <p>Puntuación: <b>7.4/10</b></p>
+            <p>
+
+                In the Kenyan bush, a small-time ivory dealer fights to stay on top while forces mobilize to destroy his trade. When he turns to his younger cousin, a conflicted wildlife ranger who hasn't been paid in months, they both see a possible lifeline.
+                <br> <br><b>Director:</b> Jon Kasbe
+                <br> <br><b>Language:</b> English
+                <br> <br><b>Subtitles:</b> Spanish, English [CC]
+
+            </p>
+
+            <div class="container">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Actor Name</th>
+                            <th>Character Name</th>
+                            <th>Gender</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let character of characters">
+                            <td>{{ character.actorName }}</td>
+                            <td>{{ character.characterName }}</td>
+                            <td>{{ character.gender }}</td>
+                            <td>{{ character.status }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2>Otras peliculas:</h2>
+        <!--Second Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/johnwick'>
+                    <img src="https://www.indiewire.com/wp-content/uploads/2019/05/07956f40-77c4-11e9-9073-657a85982e73.jpg?w=780" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>John Wick 3: Parabellum</b></p>
+                    <p>Puntuación: 7.6/10</p>
+                </div>
+
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/spiderman'>
+                    <img src="https://codigoespagueti.com/wp-content/uploads/2019/07/spider-man-far-from-home-lejos-de-casa-spiderman-2019-estreno-resea-critica-portada-1280x600.jpg" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><br><b>Spiderman: Far From Home</b></p>
+                    <p>Puntuación: 7.6/10</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <a routerLink='/docsleep'>
+                    <img src="https://m.media-amazon.com/images/M/MV5BNzUwMDBhNTEtNzc3Yi00NDU0LWEzZWYtMTEzYTJiZGEzNTk5XkEyXkFqcGdeQWFybm8@._V1_CR0,78,1500,844_AL_UX477_CR0,0,477,268_AL_.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>Doctor Sueño</b></p>
+                    <p>Puntuación: 7.7/10</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/johnwick1'>
+                    <img src="https://i.ytimg.com/vi/PAvug-z7lqM/maxresdefault.jpg" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>John Wick (2014)</b></p>
+                    <p>Puntuación: 7.4/10</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/joker'>
+                    <img src="https://i.blogs.es/04089b/0001451977/450_1000.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>JOKER</b></p>
+                    <p>Puntuación: 8.8/10</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>

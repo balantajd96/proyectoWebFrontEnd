@@ -1,0 +1,99 @@
+<div class="w3-row-padding">
+    <div class="w3-container w3-margin-bottom">
+
+        <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fscottmendelson%2Ffiles%2F2019%2F03%2FAvengers-Chinese-Poster-D.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+
+        <div class="w3-container w3-white">
+
+            <p><br><b>Avengers: Endgame</b></p>
+            <p>Puntuación: <b>8.5/10</b></p>
+            <p>
+                Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.
+                <br> <br><b>Language:</b> English
+                <br> <br><b>Subtitles:</b> Spanish, English [CC]
+            </p>
+
+            <div class="container">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Actor Name</th>
+                            <th>Character Name</th>
+                            <th>Gender</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let character of characters">
+                            <td>{{ character.actorName }}</td>
+                            <td>{{ character.characterName }}</td>
+                            <td>{{ character.gender }}</td>
+                            <td>{{ character.status }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2>Otras peliculas:</h2>
+
+        <div class="w3-row-padding">
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/johnwick'>
+                    <img src="https://www.indiewire.com/wp-content/uploads/2019/05/07956f40-77c4-11e9-9073-657a85982e73.jpg?w=780" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>John Wick 3: Parabellum</b></p>
+                    <p>Puntuación: 7.6/10</p>
+                </div>
+
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/captain-america'>
+                    <img src="https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/captain-america-first-avenger-main.jpg?itok=povLa062" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>Captain America: The First Avenger</b></p>
+                    <p>Puntuación: 6.9/10</p>
+                </div>
+
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/joker'>
+                    <img src="https://i.blogs.es/04089b/0001451977/450_1000.jpeg" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>JOKER</b></p>
+                    <p>Puntuación: 8.8/10</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="w3-row-padding">
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/spiderman'>
+                    <img src="https://codigoespagueti.com/wp-content/uploads/2019/07/spider-man-far-from-home-lejos-de-casa-spiderman-2019-estreno-resea-critica-portada-1280x600.jpg" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><br><b>Spiderman: Far From Home</b></p>
+                    <p>Puntuación: 7.6/10</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a routerLink='/frozen'>
+                    <img src="http://img2.rtve.es/i/?w=1600&i=1574168150259.jpg" style="width:100%" class="w3-hover-opacity">
+                </a>
+                <div class="w3-container w3-white">
+                    <p><b>Frozen II</b></p>
+                    <p>Puntuación: 6.6/10</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
